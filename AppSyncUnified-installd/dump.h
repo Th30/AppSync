@@ -1,8 +1,7 @@
 #ifdef __cplusplus
+#include <CoreFoundation/CoreFoundation.h>
 extern "C" {
 #endif
-
-#include <CoreFoundation/CoreFoundation.h>
 
 int copyEntitlementDataFromFile(const char *path, CFMutableDataRef output);
 
